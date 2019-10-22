@@ -1,0 +1,180 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #f8fbc7;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/*        */
+/* HEADER */
+/*        */
+header {
+    background-color: white;
+    margin: 0;
+    width:100%;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+header a {
+    color: black;
+}
+#header-img {
+    width: 100px;
+}
+#logo {
+    width: 250px;
+    margin-left: 10px;
+    transform: translateY(-30px);
+}
+#nav-bar {
+    width: 360px;
+    float: right;
+    transform: translateY(13px);
+}
+    @media screen and (max-width: 750px) {
+      #logo {
+        display: none;  
+      }
+    }
+.navlinks li {
+    display: inline-block;
+    padding: 10px;
+}
+
+/*   */
+/*TOP*/
+/*   */
+.top {
+    max-width: 600px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding-left: 30px;
+  padding-right: 30px;
+}
+.top h2 {
+    padding-bottom: 15px;
+}
+.top p {
+    padding-bottom: 5px;
+}
+#email {
+    height: 28px;
+    padding-left: 5px;
+}
+#submit {
+    margin-top: 5px;
+    width: 150px;
+    height: 25px;
+    border: solid #789AAD;
+    background-color: #F9FEFF;
+    border-radius: 5px;
+    color: rgb(69, 74, 78);
+    font-weight: 700;
+}
+
+/*    */
+/*HERO*/
+/*    */
+.hero {
+    margin: 100px auto;
+    text-align: center;
+    max-width: 550px;
+    padding-left: 20px;
+  padding-right: 20px;
+}
+figure {
+    text-align: left;
+    margin: 50px auto;
+}
+.hero img {
+    float: left;
+    margin-right: 8px;
+}
+.hero p {
+    transform: translateY(-12px);
+}
+
+/*      */ 
+/*IFRAME*/
+/*      */
+iframe {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    width: 55%;
+    height: 380px;
+    max-width: 700px;
+    min-width: 450px; 
+}
+
+/*       */ 
+/*PRICING*/
+/*       */
+.pricing {
+    margin: 70px auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+.pricing div {
+    border: solid #789AAD;
+    background-color: #F9FEFF;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pricing button {
+    border: solid #6E5035;
+    background-color: #D2AD72;
+    border-radius: 5px;
+}
+.pricing a {
+    color: rgb(255, 244, 235);
+    font-weight: 700;
+}
+
+/*      */ 
+/*FOOTER*/
+/*      */
+footer {
+    background-color: #6E5035;
+    height: 80px;
+}
+footer a {
+    color: black;
+}
+footer ul {
+    float: right;
+    margin: 30px 60px auto auto;
+}
+footer li {
+    display: inline-block;
+    margin: auto 10px;
+}
+footer p {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+    @media screen and (max-width: 600px) {
+      footer p {
+        display: none;
+      }
+      footer ul {
+        text-align: center;
+        float: none;
+      }
+      footer li {
+        margin-top: 30px;
+      }
+    }
